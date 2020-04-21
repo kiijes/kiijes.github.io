@@ -1,0 +1,62 @@
+body {
+    background-color: #444;
+    color: #ddd;
+    font-family: 'Manrope', sans-serif;
+    max-width: 100vw;
+}
+
+.color-primary-0 { color: #DD304E }	/* Main Primary color */
+.color-primary-1 { color: #F47E93 }
+.color-primary-2 { color: #EF5571 }
+.color-primary-3 { color: #BD102F }
+.color-primary-4 { color: #96021C }
+
+.color-secondary-1-0 { color: #EB7833 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #FFB284 }
+.color-secondary-1-2 { color: #FF985B }
+.color-secondary-1-3 { color: #C95611 }
+.color-secondary-1-4 { color: #A03D02 }
+
+.color-secondary-2-0 { color: #AE258C }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #D26DB8 }
+.color-secondary-2-2 { color: #BC439E }
+.color-secondary-2-3 { color: #940D73 }
+.color-secondary-2-4 { color: #760259 }
+
+.header {
+    margin: 0;
+    padding: 4em;
+    background-color: #DD304E;
+}
+
+.container {
+    margin-top: 4em;
+}
+
+.header-title {
+    font-size: 4em;
+    font-weight: 800;
+    color: white;
+}
+
+.header-wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.title {
+    text-align: right;
+}
+
+.info {
+    margin-top: 3em;
+}
+
+.info-div {
+    margin-top: 2em;
+}
+
+.link {
+    text-decoration: underline;
+    color: white;
+}
