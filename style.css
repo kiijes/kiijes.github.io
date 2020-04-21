@@ -59,4 +59,5 @@ body {
 .link {
     text-decoration: underline;
     color: white;
+    display: block;
 }
