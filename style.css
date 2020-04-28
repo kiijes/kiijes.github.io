@@ -64,6 +64,8 @@ body {
     text-decoration: underline;
     color: white;
     display: block;
+    margin-bottom: 1rem;
+    line-height: 1;
 }
 
 .example-link {
@@ -88,4 +90,9 @@ body {
 
 p {
     line-height: 1;
+}
+
+.email {
+    text-decoration: underline;
+    color: white;
 }
