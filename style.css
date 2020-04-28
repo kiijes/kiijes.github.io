@@ -1,6 +1,6 @@
 body {
-    background-color: #444;
-    color: #ddd;
+    background-color: #ddd;
+    color: #444;
     font-family: 'Manrope', sans-serif;
     max-width: 100vw;
 }
@@ -29,8 +29,11 @@ body {
     background-color: #DD304E;
 }
 
-.container {
-    margin-top: 4em;
+.container-info {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #444;
+    color: #ddd;
 }
 
 .header-title {
@@ -44,20 +47,45 @@ body {
     width: 960px;
 }
 
-.title {
+.info-title {
     text-align: right;
+}
+
+.example-title {
+    text-align: center;
+    padding-bottom: 1em;
 }
 
 .info {
     margin-top: 3em;
 }
 
-.info-div {
-    margin-top: 2em;
-}
-
-.link {
+.info-link {
     text-decoration: underline;
     color: white;
     display: block;
+}
+
+.example-link {
+    text-decoration: underline;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    display: block;
+}
+
+.container-example {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.example-row {
+    margin-bottom: 2em;
+}
+
+p {
+    line-height: 1;
 }
